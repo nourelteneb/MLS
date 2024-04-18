@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mameluke Saber
+* source:	https://sketchfab.com/3d-models/mameluke-saber-5d340ce5705d48169561315ff048b12c
+* author:	Arnold Konrad (https://sketchfab.com/akonrad)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mameluke Saber" (https://sketchfab.com/3d-models/mameluke-saber-5d340ce5705d48169561315ff048b12c) by Arnold Konrad (https://sketchfab.com/akonrad) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
