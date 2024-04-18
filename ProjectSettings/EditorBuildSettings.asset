@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Create-with-VR-Starter-Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 866e67cba19354f649e2cfc21d6b4109
+  - enabled: 1
     path: Assets/Scenes/NourRoom.unity
     guid: 25fe87c7a5f6f41a6ae8a90a2ab29225
   m_configObjects:
