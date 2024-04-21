@@ -1,0 +1,11 @@
+Model Information:
+* title:	My Face (aka my face)
+* source:	https://sketchfab.com/3d-models/my-face-aka-my-face-018e955da4304f15ba5a9f3d031d59bd
+* author:	robotninjabread (https://sketchfab.com/robotninjabread)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "My Face (aka my face)" (https://sketchfab.com/3d-models/my-face-aka-my-face-018e955da4304f15ba5a9f3d031d59bd) by robotninjabread (https://sketchfab.com/robotninjabread) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
