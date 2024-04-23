@@ -15,7 +15,7 @@ public class StartButton : MonoBehaviour
     // Update is called once per frame
     public void PlayButtonAnimation()
     {
-        animator.Play("StartButton");
+        animator.Play("StartButton 1");
         animator.Play("EndButton");
         aud.Play();
     }
