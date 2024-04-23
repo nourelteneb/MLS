@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 1640641961789276243, guid: 8c5aedbedb31848488e8007c3432c990,
+  m_ModelPrefab: {fileID: 8557704231179289222, guid: 94722d2f12fff44dc9f81e18afb2f945,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
@@ -6839,9 +6839,9 @@ GameObject:
   - component: {fileID: 963383331}
   - component: {fileID: 963383330}
   - component: {fileID: 963383329}
-  - component: {fileID: 963383326}
-  - component: {fileID: 963383325}
-  - component: {fileID: 963383335}
+  - component: {fileID: 963383337}
+  - component: {fileID: 963383336}
+  - component: {fileID: 963383338}
   m_Layer: 0
   m_Name: Cylinder (3)
   m_TagString: Untagged
@@ -6849,34 +6849,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &963383325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963383323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18ce29e8b4a194f708a7e5e59f60c53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  removebutton: {fileID: 0}
-  removebutton2: {fileID: 963383325}
---- !u!114 &963383326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963383323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bcd5a78fbd894af58f3f67288d58327, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clueControl: {fileID: 0}
-  previousClue: {fileID: 963383326}
 --- !u!114 &963383329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6919,33 +6891,9 @@ MonoBehaviour:
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 963383337}
         m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
         m_MethodName: PlayButtonAnimation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 880882070}
-        m_TargetAssemblyTypeName: CluesControl, Assembly-CSharp
-        m_MethodName: RevealNextClue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 880882077}
-        m_TargetAssemblyTypeName: PaperAni, Assembly-CSharp
-        m_MethodName: AnimatePaper
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7084,7 +7032,117 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963383335
+--- !u!82 &963383336
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963383323}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7a9f538857478488dac3d58c2b80311b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &963383337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963383323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dda7c025bfb2441985d3f274ca89aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 963383330}
+  aud: {fileID: 963383336}
+--- !u!114 &963383338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7096,8 +7154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d13ef9074ba114779935c9b0247ba394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appearbutton1: {fileID: 0}
-  appearbutton2: {fileID: 0}
+  appearbutton1: {fileID: 1921185066}
+  appearbutton2: {fileID: 963383338}
 --- !u!1001 &984907843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10151,7 +10209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e6c6f39576b4c14ad456dfaeebcb4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aud: {fileID: 0}
+  aud: {fileID: 1248771086}
   animator: {fileID: 1248771075}
 --- !u!114 &1248771078
 MonoBehaviour:
@@ -10288,7 +10346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appearbutton1: {fileID: 1921185066}
-  appearbutton2: {fileID: 963383335}
+  appearbutton2: {fileID: 963383338}
 --- !u!1 &1259188916
 GameObject:
   m_ObjectHideFlags: 0
@@ -19920,7 +19978,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 6141914067261739610, guid: d1791b6c42f7b4091950a90dbf80c441,
+  m_ModelPrefab: {fileID: 8557704231179289222, guid: 94722d2f12fff44dc9f81e18afb2f945,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
@@ -21640,7 +21698,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 10f19dbbdeec34b9ba1721da352d4bda,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 10f19dbbdeec34b9ba1721da352d4bda,
         type: 3}
@@ -22773,8 +22831,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d13ef9074ba114779935c9b0247ba394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appearbutton1: {fileID: 0}
-  appearbutton2: {fileID: 0}
+  appearbutton1: {fileID: 1921185066}
+  appearbutton2: {fileID: 963383338}
 --- !u!1 &1941630845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7029948723529949830, guid: b51f2c2b49c1e40d09f05deca538f0e9,

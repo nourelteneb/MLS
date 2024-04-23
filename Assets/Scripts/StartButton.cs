@@ -16,6 +16,7 @@ public class StartButton : MonoBehaviour
     public void PlayButtonAnimation()
     {
         animator.Play("StartButton");
+        animator.Play("EndButton");
         aud.Play();
     }
 }
